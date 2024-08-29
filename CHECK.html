@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai HUB</title>
+    <link rel="stylesheet" href="CHECK.css">
+</head>
+<body background-color="#FFFDD0.">
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>MyShop</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to Mumbai HUB</h1>
+            <p>Your one-stop shop for amazing deals</p>
+        </section>
+
+        <section id="products">
+            <h1>Best Selling</h1>
+            <div class="product-list">
+                <a href="mobile legends.html" class="product-item">
+                    <img src="photos\logo ml.jpg" alt="Product 1" style="width: 200px; height: auto;">
+                    <h3>MOBILE LEGENDS BANG BANG</h3>
+                    <p>100rs</p>
+                    <button>Add to Cart</button>
+                </a>
+                <a href="genshin.html" class="product-item">
+                    <img src="photos/Genshin Impact Logo.jpeg" alt="Product 2" style="width: 200px; height: auto;">
+                    <h3>GENSHIN IMPACT</h3>
+                    <p>100rs</p>
+                    <button>Add to Cart</button>
+                </a>
+                <a href="honkaistarrail.html" class="product-item">
+                    <img src="photos\-- Honkai _ Star Rail - Logo 🪡.jpeg" alt="Product 3" style="width: 200px; height: auto;">
+                    <h3>HONKAI STAR RAIL</h3>
+                    <p>100rs</p>
+                    <button>Add to Cart</button>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="feedback">feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+   
+</body>
+</html>

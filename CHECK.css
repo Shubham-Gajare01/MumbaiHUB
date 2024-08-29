@@ -1,0 +1,138 @@
+
+    body {
+        
+        background-color:#FFFDD0;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    nav .logo h1 {
+        margin: 0;
+    }
+    
+    nav .nav-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav .nav-links li {
+        display: inline;
+        margin-left: 20px;
+    }
+    
+    nav .nav-links a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    .product-list {
+        size: 10px;
+    }
+    
+    .product-item {
+        size: 2px;
+        display: flex;
+        gap: px;
+    }
+    
+    .product-item img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    form {
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    form label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+    
+    form input,
+    form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+    
+    
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align : center;
+    text-decoration : none;
+    display : inline-block;
+    font-size : 16px; 
+    margin : 4px 2px;
+    cursor : pointer;
+    border-radius : 4px;       
+    transition : background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; 
+    transform: scale(1.05); 
+}
+
+button:active {
+    background-color: #3e8e41;
+    transform: scale(0.95);
+}
+
+button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.product-item {
+    display: block;
+    text-decoration: none; 
+    color: inherit;
+}
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h3, .product-item p, .product-item button {
+    margin: 0; 
+}
+
+    
+    form button:hover {
+        background-color: #555;
+    }
+    
+    footer {
+        background-color: #00f3fc;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
